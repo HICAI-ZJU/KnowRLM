@@ -31,3 +31,15 @@ The predictor and reward model are the same. Train the predictor using the candi
 Run the script from the script folder using: `python mean_max_3.py or NDCG.py`.
 
 **Note:** This method involves data sampling rather than training, leading to randomness. It is recommended to conduct multiple experiments. The results reported in the paper represent the optimal outcomes.
+
+# Reference
+
+If you use our repository, please cite the following related paper:
+
+```
+@inproceedings{wangknowledge,
+  title={Knowledge-aware Reinforced Language Models for Protein Directed Evolution},
+  author={Wang, Yuhao and Zhang, Qiang and Qin, Ming and Zhuang, Xiang and Li, Xiaotong and Gong, Zhichen and Wang, Zeyuan and Zhao, Yu and Yao, Jianhua and Ding, Keyan and others},
+  booktitle={Forty-first International Conference on Machine Learning}
+}
+```
