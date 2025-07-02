@@ -1,6 +1,12 @@
 # Knowledge-aware Reinforced Language Models for Protein Directed Evolution
 
-The official implementation of the ICML'2024 paper Knowledge-aware Reinforced Language Models for Protein Directed Evolution
+The official implementation of the ICML'2024 paper Knowledge-aware Reinforced Language Models for Protein Directed Evolution.
+
+# Brief Introduction
+
+KnowRLM is a knowledge-aware reinforcement learning framework designed to enhance machine learning-assisted directed evolution (MLDE) for protein engineering. By integrating an Amino Acid Knowledge Graph (AAKG) with a Protein Language Model (PLM)-based policy, KnowRLM actively explores the mutational space through informed sampling and dynamic optimization. This approach leverages both biochemical domain knowledge and statistical sequence patterns to more effectively discover high-fitness protein variants. Experiments show that KnowRLM significantly outperforms existing methods in identifying functional protein mutants.
+
+![fig2](./image/fig2.jpg)
 
 # Environments
 
@@ -30,7 +36,7 @@ The predictor and reward model are the same. Train the predictor using the candi
 
 Run the script from the script folder using: `python mean_max_3.py or NDCG.py`.
 
-**Note:** This method involves data sampling rather than training, leading to randomness. It is recommended to conduct multiple experiments. The results reported in the paper represent the optimal outcomes.
+**Note:** It is recommended to conduct multiple experiments. The results reported in the paper represent the optimal outcomes.
 
 # Reference
 
